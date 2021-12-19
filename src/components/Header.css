@@ -1,0 +1,13 @@
+
+.header {
+    display: flex;
+    padding: 1rem;
+    gap: 1rem;
+    color: #ddd;
+    background-color: #242526;
+}
+
+.header-title {
+    font-family: 'Oooh Baby', cursive;
+    flex-grow: 1;
+}

@@ -1,0 +1,18 @@
+.hero-section {
+    display: flex;
+    text-align: center;
+    padding-bottom: 3rem;
+    border-bottom: 1px solid gray;
+}
+
+.hero-section a {
+    color: #007acc;
+}
+
+.hero-section img {
+    border-radius: 5px;
+}
+
+.hero-section figure {
+    max-width: 700px;
+}

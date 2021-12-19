@@ -1,0 +1,35 @@
+
+.about-section-title {
+  font-size: 2rem;
+  margin-top: 2rem;
+  text-align: center;
+  font-family: "Oooh Baby", cursive;
+}
+
+.about-section-description {
+  margin: 1rem auto;
+  width: 60%;
+  text-align: center;
+}
+
+.about-skills {
+  display: flex;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.about-skill-title {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+@media screen and (max-width: 600px) {
+    .about-skills {
+        flex-direction: column;
+    }
+
+    .about-skill-title {
+      justify-content: center;
+    }
+}

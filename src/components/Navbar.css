@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.list {
+  font-family: "Oooh Baby", cursive;
+  font-weight: bold;
+  display: flex;
+  gap: 2rem;
+}
+
+.btn-menu {
+  border-radius: 50%;
+  border: none;
+  color: #ddd;
+  background-color: #242526;
+  cursor: pointer;
+  display: none;
+}
+
+.btn-menu:hover {
+  background-color: #333;
+}
+
+.menu-icon {
+  margin: 0.75rem 0.5rem;
+}
+
+@media screen and (max-width: 650px) {
+  .list {
+    display: none;
+  }
+  .btn-menu {
+    display: flex;
+  }
+}

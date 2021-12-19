@@ -1,0 +1,29 @@
+.home-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding-bottom: 4rem;
+}
+
+.home-articles {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+}
+
+.home-articles-title {
+    padding: 1rem 0;
+    font-family: 'Oooh Baby', cursive;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
